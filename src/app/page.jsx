@@ -8,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <h1>Helo culture kid</h1>
+      <h1>main herro section</h1>
     </main>
   );
 }
