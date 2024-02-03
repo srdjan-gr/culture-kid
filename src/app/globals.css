@@ -5,8 +5,3 @@
 .icon_size_md {
   @apply h-5 w-5;
 }
-
-.underline_animation:hover {
-  text-decoration: underline;
-  animation: alternate 0.25s ease-in;
-}
