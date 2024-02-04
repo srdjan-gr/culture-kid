@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Hero } from "@/components/index";
 
 export const metadata = {
   title: "Culture Kid Home",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <h1>main herro section</h1>
+      <Hero />
     </main>
   );
 }

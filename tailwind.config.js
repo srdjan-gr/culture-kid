@@ -12,6 +12,7 @@ module.exports = {
         karla_font: ["Karla", "serif"],
       },
       colors: {
+        kid_bg: "#E7E7E1",
         kid_white: "#fff",
         kid_black: "#161412",
         kid_black_bluish: "#162533",
