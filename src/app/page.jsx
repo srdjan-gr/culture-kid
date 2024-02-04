@@ -1,4 +1,4 @@
-import { Hero } from "@/components/index";
+import { Hero, Astists, Artists } from "@/components/index";
 
 export const metadata = {
   title: "Culture Kid Home",
@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <Artists />
     </main>
   );
 }

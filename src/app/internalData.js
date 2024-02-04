@@ -4,6 +4,10 @@ import pain3 from "../../public/img/Painting-3.png";
 import pain4 from "../../public/img/Painting-4.png";
 import pain5 from "../../public/img/Painting-5.png";
 
+import artist1 from "../../public/img/artist-1.png";
+import artist2 from "../../public/img/artist-2.png";
+import artist3 from "../../public/img/artist-3.png";
+
 export const NavLinks = [
   {
     label: "paintings",
@@ -25,53 +29,74 @@ export const NavLinks = [
 
 export const CaruselImages = [
   {
-    label: "Image label",
+    label: "Wallowing Breeze",
     description: "Image desc",
     technique: "Oil on canvas",
     year: "2008",
-    artist: "Image Artist",
-    dimensions: "26 x 25",
-    price: "300",
+    artist: "Hettie Richards",
+    dimensions: "26 x 23",
+    price: "620",
     src: pain1,
   },
   {
-    label: "Image label",
+    label: "J Resistance",
     description: "Image desc",
-    technique: "Oil on canvas",
-    year: "2008",
-    artist: "Image Artist",
-    dimensions: "26 x 25",
-    price: "300",
+    technique: "Gouache on paper",
+    year: "2018",
+    artist: "Ria Arante",
+    dimensions: "20 x 22",
+    price: "450",
     src: pain2,
   },
   {
-    label: "Image label",
+    label: "Warn Basket",
     description: "Image desc",
-    technique: "Oil on canvas",
-    year: "2008",
-    artist: "Image Artist",
-    dimensions: "26 x 25",
-    price: "300",
+    technique: "Acrylic on wood",
+    year: "2014",
+    artist: "flora Powers",
+    dimensions: "24 x 22",
+    price: "600",
     src: pain3,
   },
   {
-    label: "Image label",
+    label: "The Vonnegut",
     description: "Image desc",
     technique: "Oil on canvas",
-    year: "2008",
-    artist: "Image Artist",
-    dimensions: "26 x 25",
-    price: "300",
+    year: "2018",
+    artist: "Ria Arante",
+    dimensions: "26 x 24",
+    price: "740",
     src: pain4,
   },
   {
-    label: "Image label",
+    label: "Into the Walls",
     description: "Image desc",
     technique: "Oil on canvas",
-    year: "2008",
-    artist: "Image Artist",
-    dimensions: "26 x 25",
-    price: "300",
+    year: "2020",
+    artist: "Ria Arante",
+    dimensions: "22 x 22",
+    price: "450",
     src: pain5,
+  },
+];
+
+export const artists = [
+  {
+    name: "Mike Lambert",
+    art: "Painter",
+    location: "Texas",
+    src: artist1,
+  },
+  {
+    name: "Eugenia Cohen",
+    art: "Painter",
+    location: "Amsterdam",
+    src: artist2,
+  },
+  {
+    name: "Jenny hubbard",
+    art: "Painter",
+    location: "California",
+    src: artist3,
   },
 ];
