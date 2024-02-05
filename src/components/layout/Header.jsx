@@ -11,8 +11,8 @@ import { GoSearch } from "react-icons/go";
 const Header = () => {
   const pathName = usePathname();
   return (
-    <header className="max-w-full px-3 sm:px-0 sm:max-w-2xl md:max-w-5xl xl:max-w-7xl m-auto flex items-center justify-between py-8">
-      <Link href={"./"}>
+    <header className="w-full px-3 sm:px-0 sm:max-w-2xl md:max-w-5xl xl:max-w-7xl m-auto flex items-center justify-between py-8">
+      <Link href={"/"}>
         <Image
           width={50}
           height={50}

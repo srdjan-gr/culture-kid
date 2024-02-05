@@ -4,6 +4,8 @@ import Artists from "./layout/Artists";
 import Slider from "./utility/Slider";
 import Card from "./utility/Card";
 import ArtistCard from "./utility/ArtistCard";
+import SingleArtDescription from "./utility/SingleArtDescription";
+import SingleArtImage from "./utility/SingleArtImage";
 import CustomButtonGroupAsArrows from "./utility/CustomButtonGroupAsArrows";
 
 export {
@@ -14,4 +16,6 @@ export {
   CustomButtonGroupAsArrows,
   Artists,
   ArtistCard,
+  SingleArtImage,
+  SingleArtDescription,
 };

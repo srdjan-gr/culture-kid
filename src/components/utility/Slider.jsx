@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import { Card, CustomButtonGroupAsArrows } from "@/components";
-import { CaruselImages } from "@/app/internalData";
+import { CaruselItems } from "@/app/internalData";
 
 const Slider = () => {
   return (
@@ -16,7 +16,7 @@ const Slider = () => {
         additionalTransfrom={0}
         arrows={false}
         autoPlay
-        autoPlaySpeed={2500}
+        autoPlaySpeed={3000}
         centerMode
         className=""
         containerClass="container-padding-bottom"
@@ -67,8 +67,8 @@ const Slider = () => {
         slidesToSlide={1}
         swipeable
       >
-        {CaruselImages.map((image) => {
-          return <Card image={image} />;
+        {CaruselItems.map((item) => {
+          return <Card item={item} key={item.label} />;
         })}
       </Carousel>
     </div>

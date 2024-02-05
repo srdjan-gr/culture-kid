@@ -27,9 +27,11 @@ export const NavLinks = [
   },
 ];
 
-export const CaruselImages = [
+export const CaruselItems = [
   {
+    id: 1,
     label: "Wallowing Breeze",
+    slug: "wallowing-breeze",
     description: "Image desc",
     technique: "Oil on canvas",
     year: "2008",
@@ -39,7 +41,9 @@ export const CaruselImages = [
     src: pain1,
   },
   {
+    id: 2,
     label: "J Resistance",
+    slug: "j-resistance",
     description: "Image desc",
     technique: "Gouache on paper",
     year: "2018",
@@ -49,7 +53,9 @@ export const CaruselImages = [
     src: pain2,
   },
   {
+    id: 3,
     label: "Warn Basket",
+    slug: "warn-basket",
     description: "Image desc",
     technique: "Acrylic on wood",
     year: "2014",
@@ -59,7 +65,9 @@ export const CaruselImages = [
     src: pain3,
   },
   {
+    id: 4,
     label: "The Vonnegut",
+    slug: "the-vonnegut",
     description: "Image desc",
     technique: "Oil on canvas",
     year: "2018",
@@ -69,7 +77,9 @@ export const CaruselImages = [
     src: pain4,
   },
   {
+    id: 5,
     label: "Into the Walls",
+    slug: "into-the-walls",
     description: "Image desc",
     technique: "Oil on canvas",
     year: "2020",
