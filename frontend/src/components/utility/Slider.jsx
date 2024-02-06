@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Card, CustomButtonGroupAsArrows } from "@/components";
 import { CaruselItems } from "@/app/internalData";
 
-const Slider = () => {
+const Slider = ({ items }) => {
   return (
     <div
       style={{
@@ -67,8 +67,8 @@ const Slider = () => {
         slidesToSlide={1}
         swipeable
       >
-        {CaruselItems.map((item) => {
-          return <Card item={item} key={item.label} />;
+        {items?.data?.map((item) => {
+          return <Card item={item} key={item.name} />;
         })}
       </Carousel>
     </div>
