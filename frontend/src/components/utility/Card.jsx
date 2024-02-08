@@ -6,7 +6,7 @@ const Card = ({ item }) => {
   const imageUrl = `http://127.0.0.1:1337${item.attributes.image.data[0].attributes.url}`;
 
   return (
-    <Link href={`/single-art/${item.attributes.slug}`}>
+    <Link href={`/single-art/${item.id}`}>
       <div className="flex flex-col items-start justify-center w-80  p-8 hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] cursor-pointer my-5">
         <Image
           src={imageUrl}

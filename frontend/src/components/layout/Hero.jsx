@@ -23,8 +23,6 @@ const fetchItems = async () => {
 const Hero = async () => {
   const items = await fetchItems();
 
-  console.log(items.data);
-
   return (
     <section className="w-full my-12">
       <div className="max-w-full px-3 sm:px-0 sm:max-w-xl md:max-w-4xl xl:max-w-6xl m-auto mb-8">

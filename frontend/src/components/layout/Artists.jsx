@@ -11,7 +11,7 @@ const Artists = () => {
 
         <div className="flex gap-5">
           {artists.map((artist) => {
-            return <ArtistCard artist={artist} />;
+            return <ArtistCard artist={artist} key={artist.name} />;
           })}
         </div>
       </div>
