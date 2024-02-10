@@ -13,3 +13,7 @@
 .custom_shadow_2 {
   box-shadow: 0 8px 30px rgb(0, 0, 0, 0.2);
 }
+
+.custom_shadow_3 {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}

@@ -27,8 +27,6 @@ const fetchItem = async (id) => {
 const page = async ({ params }) => {
   const item = await fetchItem(params.id);
 
-  console.log(item);
-
   return (
     <main className="flex justify-center">
       <SingleArtImage item={item} />

@@ -22,8 +22,8 @@ export const NavLinks = [
     href: "/sculptures",
   },
   {
-    label: "arists",
-    href: "/arists",
+    label: "artists",
+    href: "/artists",
   },
 ];
 
