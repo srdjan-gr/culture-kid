@@ -40,14 +40,12 @@ const SingleArtDescription = ({ item }) => {
 
         <div className="flex items-center justfy-center">
           <CiLocationOn className="text-sm mr-2" />
-          <p className="text-gray-500 font-karla_font">
-            Ships from New York, NY, USA
-          </p>
+          <p className="text-gray-500 text-sm">Ships from New York, NY, USA</p>
         </div>
 
         <div className="flex items-center justfy-center mb-6">
           <HiOutlineArchiveBox className="text-sm mr-2" />
-          <p className="text-gray-500 font-karla_font ">
+          <p className="text-gray-500 text-sm">
             Estimated to ship in 3 - 7 days within USA
           </p>
         </div>
@@ -55,7 +53,7 @@ const SingleArtDescription = ({ item }) => {
         <button className="w-full bg-kid_black p-3 text-kid_white uppercase mb-3 hover:bg-kid_black/90">
           Add to card
         </button>
-        <p className="text-gray-500 font-karla_font mb-6">
+        <p className="text-gray-500 mb-6 text-sm">
           Taxes and shiping fees will apply upon checkout
         </p>
       </div>

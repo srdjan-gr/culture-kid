@@ -1,5 +1,10 @@
 import { SingleArtDescription, SingleArtImage } from "@/components";
 
+export const metadata = {
+  title: "Culture Kid Art",
+  description: "Cultuere kid web store single art page.",
+};
+
 const fetchItem = async (id) => {
   const options = {
     headers: {

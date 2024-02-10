@@ -9,3 +9,7 @@
 .custom_shadow {
   @apply shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px];
 }
+
+.custom_shadow_2 {
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.2);
+}

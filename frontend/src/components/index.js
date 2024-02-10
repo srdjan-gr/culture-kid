@@ -7,6 +7,7 @@ import ArtistCard from "./utility/ArtistCard";
 import SingleArtDescription from "./utility/SingleArtDescription";
 import SingleArtImage from "./utility/SingleArtImage";
 import CustomButtonGroupAsArrows from "./utility/CustomButtonGroupAsArrows";
+import Modal from "./utility/Modal";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   ArtistCard,
   SingleArtImage,
   SingleArtDescription,
+  Modal,
 };
