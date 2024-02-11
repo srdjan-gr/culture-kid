@@ -7,8 +7,8 @@ const ArtistCard = ({ artist }) => {
 
   return (
     <Link
-      href={`/single-artist/${artist.id}`}
-      className="flex border-[1px] border-kid_gray cursor-pointer"
+      href={`/artist/${artist.id}`}
+      className="flex border-[1px] border-kid_gray cursor-pointer hover:shadow-3xl"
     >
       <Image
         src={imageUrl}

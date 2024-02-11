@@ -26,7 +26,9 @@ const AllArtists = async () => {
 
   return (
     <div className="px-3 sm:px-0 sm:max-w-2xl md:max-w-5xl xl:max-w-7xl m-auto">
-      <h1 className="py-10 text-xl tracking-widest">cultured kid. Artists</h1>
+      <h1 className="py-10 pb-20 text-xl tracking-widest">
+        cultured kid. Artists
+      </h1>
       <div className="  grid grid-cols-4 gap-5">
         {artists?.data?.map((artist) => {
           return <ArtistCard artist={artist} />;

@@ -19,6 +19,9 @@ module.exports = {
         kid_gray: "#dddddd",
         kid_light_gray: "#eeeeee",
       },
+      boxShadow: {
+        "3xl": "0 5px 20px rgb(0, 0, 0, 0.1)",
+      },
     },
   },
   plugins: [],

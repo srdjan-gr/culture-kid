@@ -38,9 +38,12 @@
     },
     "products": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::product.product",
-      "mappedBy": "artist"
+      "inversedBy": "artists"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

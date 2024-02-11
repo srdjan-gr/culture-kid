@@ -9,6 +9,8 @@ import SingleArtImage from "./utility/SingleArtImage";
 import CustomButtonGroupAsArrows from "./utility/CustomButtonGroupAsArrows";
 import Modal from "./utility/Modal";
 import AllArtists from "./utility/AllArtists";
+import SingleArtist from "./utility/SingleArtist";
+import SingleArtistWork from "./utility/SingleArtistWork";
 
 export {
   Header,
@@ -22,4 +24,6 @@ export {
   SingleArtDescription,
   Modal,
   AllArtists,
+  SingleArtist,
+  SingleArtistWork,
 };

@@ -19,7 +19,7 @@ const Card = ({ item }) => {
         <div className="mt-5 font-karla_font">
           <h2 className="text-xl font-semibold">{item.attributes.name}</h2>
           <p className="text-l text-gray-500">
-            {item.attributes.artist.data.attributes.name}
+            {item.attributes.artists.data[0].attributes.name}
           </p>
           <p className="text-l text-gray-400 italic">
             {item.attributes.technique}, {item.year}

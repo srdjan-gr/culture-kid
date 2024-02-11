@@ -96,27 +96,17 @@
         }
       }
     },
-    "published": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "products"
     },
-    "artist": {
+    "artists": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::artist.artist",
-      "inversedBy": "products"
+      "mappedBy": "products"
     }
   }
 }

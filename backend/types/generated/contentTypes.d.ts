@@ -799,9 +799,10 @@ export interface ApiArtistArtist extends Schema.CollectionType {
     image: Attribute.Media;
     products: Attribute.Relation<
       'api::artist.artist',
-      'oneToMany',
+      'manyToMany',
       'api::product.product'
     >;
+    description: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -932,22 +933,14 @@ export interface ApiProductProduct extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    published: Attribute.Boolean &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }> &
-      Attribute.DefaultTo<false>;
     category: Attribute.Relation<
       'api::product.product',
       'manyToOne',
       'api::category.category'
     >;
-    artist: Attribute.Relation<
+    artists: Attribute.Relation<
       'api::product.product',
-      'manyToOne',
+      'manyToMany',
       'api::artist.artist'
     >;
     createdAt: Attribute.DateTime;
